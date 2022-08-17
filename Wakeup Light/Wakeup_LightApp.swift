@@ -11,7 +11,7 @@ import SwiftUI
 struct Wakeup_LightApp: App {
     var body: some Scene {
         WindowGroup {
-            ClockView()
+            HomeView()
         }
     }
 }

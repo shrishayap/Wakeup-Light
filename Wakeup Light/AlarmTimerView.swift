@@ -13,6 +13,7 @@ struct AlarmTimerView: View{
     
     var body: some View{
         
+
         ZStack {
             Circle()
                 .stroke(
@@ -33,7 +34,7 @@ struct AlarmTimerView: View{
                     
                     VStack {
                         Text("Alarm set for")
-                        Text("09:23")
+                        Text("9:12 AM")
 
                     }
                 }
@@ -41,6 +42,7 @@ struct AlarmTimerView: View{
         }
         .padding(35)
         .frame(width: 400, height: 500)
+            
             
     }
 }

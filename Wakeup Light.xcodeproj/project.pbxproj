@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		9D7B956528AC31A400703A4E /* Wakeup_LightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7B956428AC31A400703A4E /* Wakeup_LightApp.swift */; };
-		9D7B956728AC31A400703A4E /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7B956628AC31A400703A4E /* ClockView.swift */; };
+		9D7B956728AC31A400703A4E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7B956628AC31A400703A4E /* HomeView.swift */; };
 		9D7B956928AC31A900703A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7B956828AC31A900703A4E /* Assets.xcassets */; };
 		9D7B956C28AC31A900703A4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7B956B28AC31A900703A4E /* Preview Assets.xcassets */; };
 		9D7B957328AC7D0900703A4E /* AlarmTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7B957228AC7D0900703A4E /* AlarmTimerView.swift */; };
+		9D7B957728AC876B00703A4E /* TimeSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7B957628AC876B00703A4E /* TimeSelectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D7B956128AC31A400703A4E /* Wakeup Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wakeup Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7B956428AC31A400703A4E /* Wakeup_LightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wakeup_LightApp.swift; sourceTree = "<group>"; };
-		9D7B956628AC31A400703A4E /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		9D7B956628AC31A400703A4E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9D7B956828AC31A900703A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D7B956B28AC31A900703A4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D7B957228AC7D0900703A4E /* AlarmTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTimerView.swift; sourceTree = "<group>"; };
+		9D7B957628AC876B00703A4E /* TimeSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				9D7B956428AC31A400703A4E /* Wakeup_LightApp.swift */,
-				9D7B956628AC31A400703A4E /* ClockView.swift */,
+				9D7B956628AC31A400703A4E /* HomeView.swift */,
 				9D7B957228AC7D0900703A4E /* AlarmTimerView.swift */,
+				9D7B957628AC876B00703A4E /* TimeSelectorView.swift */,
 				9D7B956828AC31A900703A4E /* Assets.xcassets */,
 				9D7B956A28AC31A900703A4E /* Preview Content */,
 			);
@@ -140,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7B957728AC876B00703A4E /* TimeSelectorView.swift in Sources */,
 				9D7B957328AC7D0900703A4E /* AlarmTimerView.swift in Sources */,
-				9D7B956728AC31A400703A4E /* ClockView.swift in Sources */,
+				9D7B956728AC31A400703A4E /* HomeView.swift in Sources */,
 				9D7B956528AC31A400703A4E /* Wakeup_LightApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

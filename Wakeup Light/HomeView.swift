@@ -7,34 +7,38 @@
 
 import SwiftUI
 
-struct ClockView: View {
+struct HomeView: View {
     var body: some View {
         
-        VStack {
-            Text("Hello, Shrisha")
+        NavigationView{
             
-            AlarmTimerView()
-            
-            CountdownTextView()
-            
-            HStack{
+            VStack {
                 
-                Button() {
-                    print("Pressed")
-                } label: {
-                    Image(systemName: "pencil")
-                        .imageScale(.large)
-                }
+                AlarmTimerView()
                 
-                Button() {
-                    print("Pressed")
-                } label: {
-                    Image(systemName: "gear")
-                        .imageScale(.large)
+                CountdownTextView()
+                
+                HStack{
+                    
+                    Button() {
+                        print("Pressed")
+                    } label: {
+                        Image(systemName: "pencil")
+                            .imageScale(.large)
+                    }
+                    
+                    Button() {
+                        print("Pressed")
+                    } label: {
+                        Image(systemName: "gear")
+                            .imageScale(.large)
 
+                    }
+                    
                 }
-                
             }
+            .navigationTitle("Hello, Shrisha")
+            
         }
         
     }
@@ -42,7 +46,7 @@ struct ClockView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ClockView()
+        HomeView()
     }
 }
 
